@@ -28,7 +28,7 @@ func main() {
 	fmt.Println(a, b, c, d, e, f, g, h, i, J)
 	fmt.Println(reflect.TypeOf(b)) // 기본 활당 자료형은 float64
 
-	fmt.Println(reflect.TypeOf('B'))
+	fmt.Println(reflect.TypeOf('B')) //rune 은 int32
 	fmt.Println(reflect.TypeOf(100))
 	fmt.Println(reflect.TypeOf(2.71))
 	fmt.Println(reflect.TypeOf(false))
