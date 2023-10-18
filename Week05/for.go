@@ -8,12 +8,11 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"time"
 )
 
 func main() {
 
-	rand.Seed(time.Now().Unix())
+	// rand.Seed(time.Now().Unix())
 	answer := rand.Intn(100) + 1
 
 	fmt.Println("Guess number (1 ~ 100) : ")

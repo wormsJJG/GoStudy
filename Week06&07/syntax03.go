@@ -26,6 +26,7 @@ func main() {
 
 	// 다른 언어의 while문 구현
 	i := 1
+
 	for i < 10 {
 		fmt.Printf("%d * %d = %d\n", dan, i, (dan * i))
 		i++

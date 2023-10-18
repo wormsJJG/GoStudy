@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 
@@ -8,11 +11,10 @@ func main() {
 	convertToIntroduce(&name)
 	fmt.Println(name)
 
-	a := 0
-	b := 1
+	a := "5"
 
-	fmt.Println(bool(a))
-	fmt.Println(bool(b))
+	fmt.Println(strconv.ParseInt(a, 10, 32))
+	fmt.Printf("%T\n", a)
 }
 
 func convertToIntroduce(nameAddress *string) {

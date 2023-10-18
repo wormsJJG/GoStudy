@@ -11,4 +11,4 @@ func main() {
 	replaceWords := strings.NewReplacer("?", "o")
 	fixedWrods := replaceWords.Replace(brokenWords)
 	fmt.Println(fixedWrods)
-} 
+}

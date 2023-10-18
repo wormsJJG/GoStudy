@@ -21,7 +21,6 @@ func main() {
 			isPrime = false
 			break // 첫 번째 약수가 발견되면 반복문 즉시 종료
 		}
-		//fmt.Print(i, " ")
 	}
 
 	if isPrime { // 비교 연산자 제거
