@@ -35,6 +35,7 @@ func GetFloats(fileName string) ([4]float64, error) {
 
 func main() {
 	numbers, err := GetFloats("data.txt")
+
 	if err != nil {
 		log.Fatal(err)
 	}
