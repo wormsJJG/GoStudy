@@ -7,6 +7,7 @@ func main() {
 	var a []string
 	var b []bool
 
+	b = append(b, true)
 	fmt.Printf("%#v %#v\n", a, b)
 
 	fmt.Println(a, len(a), cap(a))
